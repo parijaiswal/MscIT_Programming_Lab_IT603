@@ -9,7 +9,8 @@ int main(){
    cout<<"Enter here your marks: ";
    cin>>marks;
    Student s(roll,marks);
-   cout<<"\nStudent Information\n";
+   cout<<"\nDisplay the information....\n";
+   cout<<"-------------------------------\n";
    s.display();
    return 0;
 }
