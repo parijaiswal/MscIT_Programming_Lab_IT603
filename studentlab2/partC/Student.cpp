@@ -6,6 +6,8 @@ Student::Student(int r,float m){
     marks=m;
 }
 void Student::display(){
+   cout<<"\nThe Student Information\n";
+   cout<<"=========================================\n";
    cout<< "Roll Number :"<<rollno<<endl;
    cout<<"Marks: "<<marks<<endl;
 }
